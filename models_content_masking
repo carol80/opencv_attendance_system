@@ -1,0 +1,34 @@
+# from django.db import models
+# from phonenumber_field.modelfields import PhoneNumberField
+
+# # Create your models here.
+# class web(models.Model):                                                    #to store the data entered by the user to perform data-masking of diff. templates
+#     # company_details
+#     c_name = models.CharField(max_length=20,blank=True)
+#     logo_link = models.URLField(default='',blank=True)
+#     # banner_details
+#     banner1 = models.URLField(default='',blank=True)
+#     banner2 = models.URLField(default='',blank=True)
+#     banner3 = models.URLField(default='',blank=True)
+#     banner4 = models.URLField(default='',blank=True)
+#     banner5 = models.URLField(default='',blank=True)
+#     banner_des1 = models.CharField(max_length=20,blank=True)
+#     banner_des2 = models.CharField(max_length=20,blank=True)
+#     banner_des3 = models.CharField(max_length=20,blank=True)
+#     banner_des4 = models.CharField(max_length=20,blank=True)
+#     banner_des5 = models.CharField(max_length=20,blank=True)
+#     banner_link = models.URLField(default='',blank=True)
+#     # contact_details
+#     email = models.EmailField(max_length=254)
+#     phone = PhoneNumberField(null=False, blank=False, unique=True)
+#     address_line1 = models.CharField(max_length=100,default='',blank=True)
+#     address_line2 = models.CharField(max_length=100,default='',blank=True)
+#     pincode = models.CharField(max_length=6,blank=True)
+#     city = models.CharField(max_length=20,blank=True)
+#     # about_us_details
+#     aboutus = models.CharField(max_length=100,default='')
+#     about_img = models.URLField(default='',blank=True)
+    
+
+#     def __str__(self):
+#         return self.c_name
